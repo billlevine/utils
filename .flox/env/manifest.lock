@@ -12,7 +12,9 @@
     "options": {},
     "build": {
       "purge-storepath": {
-        "command": "  mkdir -p $out/bin\n  cp purge-storepath.sh $out/bin/purge-storepath\n  chmod a+x $out/bin/purge-storepath\n"
+        "command": "  mkdir -p $out/bin\n  cp purge-storepath.sh $out/bin/purge-storepath\n  chmod a+x $out/bin/purge-storepath\n",
+        "version": "0.1.0",
+        "description": "Purge a nix store path, handling referrers and roots"
       }
     }
   },

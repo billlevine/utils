@@ -81,6 +81,8 @@ command = '''
   cp purge-storepath.sh $out/bin/purge-storepath
   chmod a+x $out/bin/purge-storepath
 '''
+version = "0.1.0"
+description = "Purge a nix store path, handling referrers and roots"
 
 ## Other Environment Options -----------------------------------------
 [options]
